@@ -10,6 +10,7 @@ Now you can take advantages of both to have your [WordPress](https://wordpress.o
 Composer is a PHP dependency manager that allows you to manage your Wordpress install and plugins with improved dependency management and more reliable development than vanilla Wordpress. It's similar to putting Worpdress in its own subdirectory, but with easier configuration. Isolated web root enhances security by limiting access to non-web files, while vanilla WordPress structure the whole configuration on the same root.
 
 ### Bedrock's structure
+
 ```
 site/
 ├── config/
@@ -27,9 +28,9 @@ site/
     │   └── uploads/
     └── wp/               # WordPress core
 
-    ```
-
+  ```
 ## Status
+
 This repository has been tested and successfully deployed with Clever Cloud. We will keep adding features and updating the project to fit our customers' needs.
 
 ## Instructions
